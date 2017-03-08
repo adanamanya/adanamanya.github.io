@@ -232,11 +232,11 @@
 </div>
 <div class="container-fluid">
 	<div class="row" style="text-align:center;">
-		<div class="slider-pagination">
-			<label for="slider_1" class="page1">1</label>
-			<label for="slider_2" class="page2">2</label>
-			<label for="slider_3" class="page3">2</label>
-			<label for="slider_4" class="page4">2</label>
+		<div class="-pagination">
+			<i class="fa fa-circle-o" aria-hidden="true"></i>
+			<i class="fa fa-circle-o" aria-hidden="true"></i>
+			<i class="fa fa-circle-o" aria-hidden="true"></i>
+			<i class="fa fa-circle-o" aria-hidden="true"></i>
 	  </div>
 	</div>
 </div>
