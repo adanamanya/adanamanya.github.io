@@ -30,6 +30,11 @@ html,body{
 	background:#111;
 }
 
+.mySlides
+{
+	display:none;
+}
+
 html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
