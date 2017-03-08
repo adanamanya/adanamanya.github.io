@@ -233,10 +233,9 @@
 <div class="container-fluid">
 	<div class="row" style="text-align:center;">
 		<div class="-pagination">
-			<i class="fa fa-circle-o" aria-hidden="true"></i>
-			<i class="fa fa-circle-o" aria-hidden="true"></i>
-			<i class="fa fa-circle-o" aria-hidden="true"></i>
-			<i class="fa fa-circle-o" aria-hidden="true"></i>
+			<i class="fa fa-circle-o demo" aria-hidden="true" onclick="currentSlide(1)"></i>
+			<i class="fa fa-circle-o demo" aria-hidden="true" onclick="currentSlide(2)"></i>
+			<i class="fa fa-circle-o demo" aria-hidden="true" onclick="currentSlide(3)"></i>
 	  </div>
 	</div>
 </div>
