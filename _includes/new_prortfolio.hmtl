@@ -233,10 +233,10 @@
 <div class="container-fluid">
 	<div class="row" style="text-align:center;">
 		<div class="slider-pagination">
-			<label for="slider_1" class="page1"></label>
-			<label for="slider_2" class="page2"></label>
-			<label for="slider_3" class="page3"></label>
-			<label for="slider_4" class="page4"></label>
+			<label for="slider_1" class="page1">1</label>
+			<label for="slider_2" class="page2">2</label>
+			<label for="slider_3" class="page3">2</label>
+			<label for="slider_4" class="page4">2</label>
 	  </div>
 	</div>
 </div>
