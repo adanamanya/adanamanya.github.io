@@ -16,7 +16,7 @@
         <div class="container-fluid">
 		  <div class="row" style="height: 120px;">
 			<div class="col-md-2 col-md-offset-1 ">
-			  <a href="" class="portfolio-box" onclick="currentSlide()">
+			  <div href="" class="portfolio-box" onclick="currentSlide()">
 					<img src="http://i.imgur.com/TaiLEFi.png" style="width: 90%; height: 90%" class="img-responsive" alt="">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
@@ -27,7 +27,7 @@
 							</div>
 						</div>
 					</div>
-				 </a>
+				 </div>
 			</div>
 			<div class="col-md-2" style="padding-top: 2%;">
 			  <a href="www.salestockindonesia.com" class="portfolio-box" style="">
