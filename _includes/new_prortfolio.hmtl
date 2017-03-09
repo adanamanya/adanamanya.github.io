@@ -89,7 +89,7 @@
 		</div>
 		<div class="container-fluid mySlides" style="    display: none;">
 		  <div class="row" style="height: 120px;">
-			<div class="col-md-2 col-md-offset-1 ">
+			<div class="col-md-2 col-md-offset-1 " style="    padding-top: 4%;">
 			  <a href="https://www.misteraladin.com/" class="portfolio-box">
 							<img src="http://i.imgur.com/nXGrmbD.png" class="img-responsive" alt="">
 							<div class="portfolio-box-caption">
