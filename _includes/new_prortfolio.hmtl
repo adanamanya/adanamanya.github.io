@@ -13,7 +13,7 @@
 
 <section class="no-padding" id="portfolio">
     <center>
-        <div class="container-fluid mySlides" style="display: none;">
+        <div class="container-fluid mySlides">
 		  <div class="row" style="height: 120px;">
 			<div class="col-md-2 col-md-offset-1 ">
 			  <div href="" class="portfolio-box" onclick="currentSlide()">
