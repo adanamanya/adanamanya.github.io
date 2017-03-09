@@ -30,6 +30,11 @@ html,body{
 	background:#111;
 }
 
+.client-logo
+{
+	padding-top: 2%;
+}
+
 .mySlides
 {
 	display:none;
