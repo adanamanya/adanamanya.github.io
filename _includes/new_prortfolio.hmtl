@@ -87,7 +87,7 @@
 			</div>
 		  </div>
 		</div>
-		<div class="container-fluid mySlides" style="display: none;">
+		<div class="container-fluid mySlides" style="margin-top: 4%;">
 		  <div class="row" style="height: 120px;">
 			<div class="col-md-2 col-md-offset-1 ">
 			  <a href="https://www.misteraladin.com/" class="portfolio-box">
@@ -104,7 +104,7 @@
 							</div>
 						</a>
 			</div>
-			<div class="col-md-2" style="padding-top: 2%;">
+			<div class="col-md-2" style="padding-top: 1%;">
 			  <a href="http://www.bobobobo.com/id/" class="portfolio-box">
 							<img src="http://i.imgur.com/eIC0GaU.jpg" style="width: 60%; height: 60%" class="img-responsive" alt="">
 							<div class="portfolio-box-caption">
@@ -119,7 +119,7 @@
 							</div>
 						</a>
 			</div>
-			<div class="col-md-2" style="padding-top: 3%;">
+			<div class="col-md-2" style="padding-top: 2%;">
 			   <a href="http://www.sucorinvest.com/id/" class="portfolio-box">
 							<img src="https://media.licdn.com/media/p/6/005/052/04c/0caa92c.png" class="img-responsive" alt="">
 							<div class="portfolio-box-caption">
@@ -149,7 +149,7 @@
 							</div>
 						</a>
 			</div>
-			<div class="col-md-2" style="padding-top: 3%;">
+			<div class="col-md-2">
 				<a href="https://sg.epicurio.co/" class="portfolio-box">
 							<img src="http://i.imgur.com/DiKbeKY.png" style="width: 60%; height: 60%" class="img-responsive" alt="">
 							<div class="portfolio-box-caption">
@@ -168,7 +168,7 @@
   </div>
   <div class="container-fluid mySlides" style="display: none;">
   <div class="row" style="height: 120px;">
-    <div class="col-md-2 col-md-offset-1 ">
+    <div class="col-md-2 col-md-offset-1 " style="padding-top: 2%">
       <a href="http://www.eyeindonesia.com/id/" class="portfolio-box">
                     <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAM4AAAAJDRhYTEwM2UwLThmZjQtNGEyZS05YjE1LTczY2EzNWQwMTI0Yg.png" style="width: 60%; height: 60%" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
@@ -183,7 +183,7 @@
                     </div>
                 </a>
     </div>
-    <div class="col-md-2" style="padding-top: 2%;">
+    <div class="col-md-2" style="padding-top: 1%;">
      <a href="http://www.sukagolf.com" class="portfolio-box">
                     <img src="http://www.sukagolf.com/gambar/web/logo-sukagolf.png" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
@@ -198,7 +198,7 @@
                     </div>
                 </a>
     </div>
-    <div class="col-md-2" style="padding-top: 3%;">
+    <div class="col-md-2" style="padding-top: 2%;">
        <a href="https://naiise.com/" class="portfolio-box">
                     <img src="http://i.imgur.com/X3hpO3D.png" style="width: 50%; height: 50%" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
@@ -213,7 +213,7 @@
                     </div>
                 </a>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2" style="padding-top: 1%;">
 		<a href="http://ruma.co.id/" class="portfolio-box">
                     <img src="http://i.imgur.com/EkbM8x6.png" style="width: 50%; height: 50%" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
