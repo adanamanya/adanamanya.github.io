@@ -13,8 +13,8 @@
 
 <section class="no-padding" id="portfolio">
     <center>
-        <div class="container-fluid mySlides client-logo">
-		  <div class="row" style="height: 120px;">
+        <div class="container-fluid mySlides client-logo" style="padding-top:2%">
+		  <div class="row">
 			<div class="col-md-2 col-md-offset-1 ">
 			  <div href="" class="portfolio-box" onclick="currentSlide()">
 					<img src="http://i.imgur.com/TaiLEFi.png" style="width: 90%; height: 90%" class="img-responsive" alt="">
@@ -87,8 +87,8 @@
 			</div>
 		  </div>
 		</div>
-		<div class="container-fluid mySlides" style="    display: none;">
-		  <div class="row" style="height: 120px;">
+		<div class="container-fluid mySlides" style="padding-top:2%; display: none;">
+		  <div class="row">
 			<div class="col-md-2 col-md-offset-1 " style="    padding-top: 4%;">
 			  <a href="https://www.misteraladin.com/" class="portfolio-box">
 							<img src="http://i.imgur.com/nXGrmbD.png" class="img-responsive" alt="">
@@ -166,8 +166,8 @@
 			</div>
 		</div>
   </div>
-  <div class="container-fluid mySlides" style="display: none;">
-  <div class="row" style="height: 120px;">
+  <div class="container-fluid mySlides" style="display: none; padding-top:2%;">
+  <div class="row">
     <div class="col-md-2 col-md-offset-1 " style="padding-top: 2%">
       <a href="http://www.eyeindonesia.com/id/" class="portfolio-box">
                     <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAM4AAAAJDRhYTEwM2UwLThmZjQtNGEyZS05YjE1LTczY2EzNWQwMTI0Yg.png" style="width: 60%; height: 60%" class="img-responsive" alt="">
