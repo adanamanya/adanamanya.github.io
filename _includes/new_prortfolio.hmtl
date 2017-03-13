@@ -166,7 +166,7 @@
 			</div>
 		</div>
   </div>
-  <div class="container-fluid mySlides" style="display: none; padding-top:2%;">
+  <div class="container-fluid mySlides" style="display: none; padding-top:2%; padding-bottom:2%;">
   <div class="row">
     <div class="col-md-2 col-md-offset-1 " style="padding-top: 2%">
       <a href="http://www.eyeindonesia.com/id/" class="portfolio-box">
@@ -231,7 +231,7 @@
 	</div>
 </div>
 <div class="container-fluid">
-	<div class="row" style="text-align:center;">
+	<div class="row" style="text-align:center; padding-bottom; 1%;">
 		<div class="-pagination">
 			<i class="fa fa-circle-o demo" aria-hidden="true" onclick="currentSlide(1)"></i>
 			<i class="fa fa-circle-o demo" aria-hidden="true" onclick="currentSlide(2)"></i>
