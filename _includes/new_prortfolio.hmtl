@@ -13,7 +13,7 @@
 
 <section class="no-padding" id="portfolio">
     <center>
-        <div class="container-fluid mySlides client-logo" style="padding-top:2%">
+        <div class="container-fluid  client-logo" style="padding-top:2%">
 		  <div class="row">
 			<div class="col-md-2 col-md-offset-1 ">
 			  <div href="" class="portfolio-box" onclick="currentSlide()">
@@ -87,7 +87,7 @@
 			</div>
 		  </div>
 		</div>
-		<div class="container-fluid mySlides" style="padding-top:2%; display: none;">
+		<div class="container-fluid " style="padding-top:2%; ">
 		  <div class="row">
 			<div class="col-md-2 col-md-offset-1 " style="    padding-top: 4%;">
 			  <a href="https://www.misteraladin.com/" class="portfolio-box">
@@ -166,7 +166,7 @@
 			</div>
 		</div>
   </div>
-  <div class="container-fluid mySlides" style="display: none; padding-top:2%; padding-bottom:2%;">
+  <div class="container-fluid " style=" padding-top:2%; padding-bottom:2%;">
   <div class="row">
     <div class="col-md-2 col-md-offset-1 " style="padding-top: 2%">
       <a href="http://www.eyeindonesia.com/id/" class="portfolio-box">
