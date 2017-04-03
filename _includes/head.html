@@ -6,10 +6,6 @@
 
 	// Get the button that opens the modal
 	var btn = document.getElementById("myBtn");
-	    
-	$( document ).ready(function() {
-    console.log( "ready!" );
-});
 
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
@@ -338,7 +334,10 @@
     {% if site.google_ad_client %}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
-      
+      $( document ).ready(function() {
+    console.log( "ready!" );
+});
+	    
      (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "{{ site.google_ad_client }}",
         enable_page_level_ads: true
