@@ -9,13 +9,6 @@
 
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
-	
-	    
-	 $(function(){
-            $('#myBtn').click(function(e)
-            { e.preventDefault(); $('#myModal').fadeIn(); });
-            $('.close').click(function(e)
-            { e.preventDefault(); $('#myModal').fadeOut('slow'); }); });
 	    
 	// When the user clicks the button, open the modal 
 	btn.onclick = function() {
@@ -345,6 +338,11 @@
         google_ad_client: "{{ site.google_ad_client }}",
         enable_page_level_ads: true
         });
+	$(function(){
+            $('#myBtn').click(function(e)
+            { e.preventDefault(); $('#myModal').fadeIn(); });
+            $('.close').click(function(e)
+            { e.preventDefault(); $('#myModal').fadeOut('slow'); }); });
     </script>
     {% endif %}
 
