@@ -11,9 +11,11 @@
 	var span = document.getElementsByClassName("close")[0];
 	
 	    
-	 $("#myModal").onclick(function(){
-		 console.log("tester");
-	 });
+	 $(function(){
+            $('#myBtn').click(function(e)
+            { e.preventDefault(); $('#myModal').fadeIn(); });
+            $('.close').click(function(e)
+            { e.preventDefault(); $('#myModal').fadeOut('slow'); }); });
 	    
 	// When the user clicks the button, open the modal 
 	btn.onclick = function() {
