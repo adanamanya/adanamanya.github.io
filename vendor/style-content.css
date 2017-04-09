@@ -233,7 +233,7 @@
 	    padding: 5px;
 	    border: 1px solid #ddd;
 	    border-radius: 5px;
-	    margin: 5px;
+	    margin: 10px;
 	}
 	
 	.modal-button
@@ -243,7 +243,7 @@
 	    border-radius: 5px;
 	    width: 30%;
 	    font-size: 18px;
-	    margin: 5px;
+	    margin: 10px;
 	    text-transform:uppercase;
 	}
 
