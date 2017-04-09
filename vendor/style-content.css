@@ -1,4 +1,4 @@
-.slide-header
+	.slide-header
 	{
 		padding-top: 100px !important;
 		border:none;
@@ -12,9 +12,9 @@
 	
 	.img-testimoni
 	{
-		height: 250px;
-    border-radius: 50%;
-    width: 250px;
+	    height: 250px;
+	    border-radius: 50%;
+	    width: 250px;
 	}
 	
 	.slide-content-testimoni
@@ -51,7 +51,7 @@
 	    
 	section.contact
 	{
-      background-color:#ffffff;	 
+      	    background-color:#ffffff;	 
 	}
 	
 	.btn
@@ -66,7 +66,7 @@
 	}
 	    
 	p
-  {
+        {
 		font-size:16px !important;
 		color:#000000!important;
 	}
@@ -193,6 +193,8 @@
 		margin-top: 10px;
     		background: #fff;
     		padding: 5px;
+		border-radius:5px;
+		border:1px solid #ddd;
 	    }
 	    
 	    .button-message:hover
@@ -221,6 +223,28 @@
 	    padding: 20px;
 	    border: 1px solid #888;
 	    width: 80%;
+	}
+
+	.modal-input
+	{
+	    display: block;
+	    outline: none;
+	    width: 90%;
+	    padding: 5px;
+	    border: 1px solid #ddd;
+	    border-radius: 5px;
+	    margin: 5px;
+	}
+	
+	.modal-button
+	{
+	    padding: 5px;
+	    border: 1px solid #ddd;
+	    border-radius: 5px;
+	    width: 30%;
+	    font-size: 18px;
+	    margin: 5px;
+	    text-transform:uppercase;
 	}
 
 /* The Close Button */
