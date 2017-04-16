@@ -94,6 +94,8 @@
   
 	.container-content-start{
 		background-color: #f7f8fa;
+		padding: 60px 0 60px 0;
+    border: 1px solid#ddd;
 	}
   
 	.content-start{
