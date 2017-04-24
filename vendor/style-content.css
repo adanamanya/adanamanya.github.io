@@ -272,13 +272,13 @@
 .consultation-button
 {
     position: absolute;
-    top: 380px;
+    top: 400px;
     left: 40%;
 }
 
 @media only screen and (max-width: 1000px) {
     .consultation-button
     {
-      left: 5%;
+      left: 8%;
     }
 }
