@@ -138,12 +138,18 @@
 			
   .content-logo
 	{
-		margin-top: 9px;
+		text-align:center;
   }
     
 	.content-fill
 	{
 		 overflow:hidden;
+		padding:20px
+	}
+
+.content-fill>ul
+	{
+		 margin-left:15px;
 	}
 			
   .client-pp
