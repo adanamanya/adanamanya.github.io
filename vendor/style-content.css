@@ -123,10 +123,7 @@ section.contact{background-color:#ffffff;}
  		margin-right: 10px;
  	}
  			
-     .content-logo
- 	{
-		text-align:center;
-    }
+     .content-logo{text-align:center;float:none !important;}
      
  	.content-fill
  	{
