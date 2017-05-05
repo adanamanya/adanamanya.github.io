@@ -284,6 +284,11 @@
     left: 40%;
 }
 
+p
+{
+	font-family: 'Avenir' !important;
+}
+
 @media only screen and (max-width: 1000px) {
     .consultation-button
     {
