@@ -11,6 +11,12 @@ $(document).ready(function(){
     $("#launch-stage-button").click(function(){
         $("#launch-stage").fadeIn();      
     });
+    $("#growth-stage-button").click(function(){
+        $("#growth-up-stage").fadeIn();      
+    });
+    $("#mature-stage-button").click(function(){
+        $("#mature-stage").fadeIn();      
+    });
 	
 });
 </script>
@@ -121,7 +127,7 @@ $(document).ready(function(){
 										<li>Tag management</li>
 										<li>Pixel implementation</li>
 									</ul>
-									<p id="start-up-stage" display="none">You also need to migrate your SEO, SEM and Paid Media cost data to your analytics dashboard</p>
+									<p id="start-up-stage" style="display: none;">You also need to migrate your SEO, SEM and Paid Media cost data to your analytics dashboard</p>
 								</div>
 							</div>
 						</div>
@@ -130,7 +136,7 @@ $(document).ready(function(){
 								<div class="content-logo"><img src="https://image.flaticon.com/icons/svg/346/346090.svg" class="img-step" style="margin-top:0px"></div>
 								<div class="content-fill">
 									<h4 id="launch-stage-button">LAUNCH STAGE</h4>
-									<p id="launch-stage">Your are at this stage if you have all basic tracking tools implemented. At the LAUNCH STAGE, you have several digital campaigns running, and you’ve started to leverage partners/vendors. At this stage, you need to focus on making sure all the technical setups can withstand actual operational complexities. Ie. Put the system under a stress-test and run QA (Quality Assurance) under various scenarios.</p>
+									<p id="launch-stage" style="display: none;">Your are at this stage if you have all basic tracking tools implemented. At the LAUNCH STAGE, you have several digital campaigns running, and you’ve started to leverage partners/vendors. At this stage, you need to focus on making sure all the technical setups can withstand actual operational complexities. Ie. Put the system under a stress-test and run QA (Quality Assurance) under various scenarios.</p>
 									<p>As you get ready for the next stage, also make sure that:</p>
 									<ul>
 										<li>External vendors analytics is integrated</li>
@@ -147,8 +153,8 @@ $(document).ready(function(){
 							<div class="content-step advisory-container">
 								<div class="content-logo"><img src="https://image.flaticon.com/icons/svg/123/123407.svg" class="img-step"></div>
 								<div class="content-fill">
-									<h4>GROWTH STAGE</h4>
-									<p>You are at this stage if your goal is -- as the name suggests -- growth. At the GROWTH STAGE, all your analytic tools are already set up and tested under real-life scenarios. This stage about adding muscle to your analytics’ capabilities.</p>
+									<h4 id="growth-stage-button">GROWTH STAGE</h4>
+									<p id="growth-stage" style="display: none;">You are at this stage if your goal is -- as the name suggests -- growth. At the GROWTH STAGE, all your analytic tools are already set up and tested under real-life scenarios. This stage about adding muscle to your analytics’ capabilities.</p>
 									<p>At this stage, you might consider :</p>
 									<ul>
 										<li>Shopping cart optimisation</li>
@@ -163,8 +169,8 @@ $(document).ready(function(){
 							<div class="content-step advisory-container">
 								<div class="content-logo"><img src="http://www.flaticon.com/premium-icon/icons/svg/216/216930.svg" class="img-step"></div>
 								<div class="content-fill">
-									<h4>MATURE STAGE</h4>
-									<p>You are at this stage if your focus is in getting more granular data from your data analytics. While QA of all measurements continuously run in the background, your analytics need are justifiably more sophisticated. At this stage, your focus should be on solutions such as:
+									<h4 id="mature-stage-button">MATURE STAGE</h4>
+									<p id="mature-stage" style="display: none;">You are at this stage if your focus is in getting more granular data from your data analytics. While QA of all measurements continuously run in the background, your analytics need are justifiably more sophisticated. At this stage, your focus should be on solutions such as:
 			</p>
 									<ul>
 										<li>Cross-device attribution modelling</li>
