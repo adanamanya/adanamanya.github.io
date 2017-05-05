@@ -5,7 +5,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    console.log("ready function");
+   $("#start-up-stage-button").click(function(){
+        $("#start-up-stage").fadeIn();      
+    });
+    $("#launch-stage-button").click(function(){
+        $("#launch-stage").fadeIn();      
+    });
+	
 });
 </script>
 	<style>
@@ -108,14 +114,14 @@ $(document).ready(function(){
 							<div class="content-step advisory-container">
 								<div class="content-logo"><img class="img-step" src="https://innovation.firstrepublic.com/wp-content/themes/FirstRepublic-tech/assets/images/icons/startup-2.svg" style="width:70; height:60px; margin-top:-10px;"></div>
 								<div class="content-fill">
-									<h4>STARTUP STAGE</h4>
+									<h4 id="start-up-stage-button">STARTUP STAGE</h4>
 									<p>At the the STARTUP STAGE, you need to prioritise proper implementation of</p>
 									<ul>
 										<li>Analytics tracking code</li>
 										<li>Tag management</li>
 										<li>Pixel implementation</li>
 									</ul>
-									<p>You also need to migrate your SEO, SEM and Paid Media cost data to your analytics dashboard</p>
+									<p id="start-up-stage" display="none">You also need to migrate your SEO, SEM and Paid Media cost data to your analytics dashboard</p>
 								</div>
 							</div>
 						</div>
@@ -123,8 +129,8 @@ $(document).ready(function(){
 							<div class="content-step advisory-container">
 								<div class="content-logo"><img src="https://image.flaticon.com/icons/svg/346/346090.svg" class="img-step" style="margin-top:0px"></div>
 								<div class="content-fill">
-									<h4>LAUNCH STAGE</h4>
-									<p>Your are at this stage if you have all basic tracking tools implemented. At the LAUNCH STAGE, you have several digital campaigns running, and you’ve started to leverage partners/vendors. At this stage, you need to focus on making sure all the technical setups can withstand actual operational complexities. Ie. Put the system under a stress-test and run QA (Quality Assurance) under various scenarios.</p>
+									<h4 id="launch-stage-button">LAUNCH STAGE</h4>
+									<p id="launch-stage">Your are at this stage if you have all basic tracking tools implemented. At the LAUNCH STAGE, you have several digital campaigns running, and you’ve started to leverage partners/vendors. At this stage, you need to focus on making sure all the technical setups can withstand actual operational complexities. Ie. Put the system under a stress-test and run QA (Quality Assurance) under various scenarios.</p>
 									<p>As you get ready for the next stage, also make sure that:</p>
 									<ul>
 										<li>External vendors analytics is integrated</li>
