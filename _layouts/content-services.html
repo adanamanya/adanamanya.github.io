@@ -6,16 +6,17 @@
 <script>
 $(document).ready(function(){
    $("#start-up-stage-button").click(function(){
-        $("#start-up-stage").fadeIn();      
+        $("#start-up-stage").fadeToggle(3000);      
     });
     $("#launch-stage-button").click(function(){
-        $("#launch-stage").fadeIn();      
+        $("#launch-stage").fadeToggle(3000);      
     });
     $("#growth-stage-button").click(function(){
-        $("#growth-up-stage").fadeIn();      
+        $("#growth-up-stage").fadeToggle(3000);      
     });
     $("#mature-stage-button").click(function(){
-        $("#mature-stage").fadeIn();      
+        $("#mature-stage").fadeToggle(); 
+	$("#mature-stage-below").fadeToggle(3000); 
     });
 	
 });
@@ -116,8 +117,8 @@ $(document).ready(function(){
 						<p>After years of servicing clients from a variety of business backgrounds, we find that while every client is different, they can generally be categorised into four stages.  Knowing which stage you are in your data analytics need can help you focus in developing your capabilities. The Four Stages of Data Analytics Need are STARTUP, LAUNCH, GROWTH, and MATURE.</p></p>
 					</div>
 					<div class="row" style="margin-bottom:20px;">
-						<div class="col-md-6">
-							<div class="content-step advisory-container">
+						<div class="col-md-6 advisory-container">
+							<div class="content-step ">
 								<div class="content-logo"><img class="img-step" src="https://innovation.firstrepublic.com/wp-content/themes/FirstRepublic-tech/assets/images/icons/startup-2.svg" style="width:70; height:60px; margin-top:-10px;"></div>
 								<div class="content-fill">
 									<h4 id="start-up-stage-button">STARTUP STAGE</h4>
@@ -131,8 +132,8 @@ $(document).ready(function(){
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="content-step advisory-container">
+						<div class="col-md-6 advisory-container" style="margin-right:-20px;margin-left:20px;">
+							<div class="content-step">
 								<div class="content-logo"><img src="https://image.flaticon.com/icons/svg/346/346090.svg" class="img-step" style="margin-top:0px"></div>
 								<div class="content-fill">
 									<h4 id="launch-stage-button">LAUNCH STAGE</h4>
@@ -149,8 +150,8 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6">
-							<div class="content-step advisory-container">
+						<div class="col-md-6 advisory-container">
+							<div class="content-step ">
 								<div class="content-logo"><img src="https://image.flaticon.com/icons/svg/123/123407.svg" class="img-step"></div>
 								<div class="content-fill">
 									<h4 id="growth-stage-button">GROWTH STAGE</h4>
@@ -165,7 +166,7 @@ $(document).ready(function(){
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 advisory-container" style="margin-right:-20px;margin-left:20px;">
 							<div class="content-step advisory-container">
 								<div class="content-logo"><img src="http://www.flaticon.com/premium-icon/icons/svg/216/216930.svg" class="img-step"></div>
 								<div class="content-fill">
@@ -179,7 +180,7 @@ $(document).ready(function(){
 										<li>A/B testing</li>
 										<li>Conversion Rate Optimisation</li>
 									</ul>
-									<p>IlmuOne Data has helped clients at all stages of data analytics. If you need help in identifying at which stage you are on the Four Stages of Data Analytics, give us a call. Our team of experts are ready to help.</p>
+									<p id="mature-stage-below" style="display: none;">IlmuOne Data has helped clients at all stages of data analytics. If you need help in identifying at which stage you are on the Four Stages of Data Analytics, give us a call. Our team of experts are ready to help.</p>
 								</div>
 							</div>
 						</div>
