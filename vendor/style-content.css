@@ -295,6 +295,11 @@ p
 }
 
 @media only screen and (max-width: 1000px) {
+    .slide-header
+     {
+	     min-height:700px;
+     }
+	
     .consultation-button
     {
       left: 8%;
