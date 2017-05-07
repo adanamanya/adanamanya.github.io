@@ -101,7 +101,7 @@
 	}
   
 	.content-start{
-		margin: 40px 0px 30px 0px;
+		margin: 60px 0px 60px 0px;
 		text-align: justify;
 	}
   
@@ -177,10 +177,14 @@
 		padding: 20px;
 		margin: 30px;
 		padding-top: 30px;
-		border: 2px solid;
+		border: 2px solid #ddd;
 		border-radius: 50%;
 		height: 120px;
 		width: 120px;
+	}
+
+	.step-data:focus{
+		background-color:#ddd;
 	}
   
 			.data-content{
