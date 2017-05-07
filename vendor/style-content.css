@@ -295,11 +295,9 @@ p
 }
 
 @media only screen and (max-width: 1000px) {
-    .slide-header
-     {
-	     padding:700px 0 !important;
-     }
-	
+    .section.cta {
+    padding:700px 0 !important;
+    }
     .consultation-button
     {
       left: 8%;
