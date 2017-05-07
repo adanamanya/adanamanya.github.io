@@ -294,12 +294,12 @@ p
 	font-family: 'Avenir' !important;
 }
 
- .section.cta {
+ section.cta {
     padding: 400px 0 !important;
     }
 
 @media only screen and (max-width: 1000px) {
-    .section.cta {
+    section.cta {
     padding:700px 0 !important;
     }
     .consultation-button
