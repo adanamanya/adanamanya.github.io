@@ -294,6 +294,10 @@ p
 	font-family: 'Avenir' !important;
 }
 
+ .section.cta {
+    padding: 400px 0 !important;
+    }
+
 @media only screen and (max-width: 1000px) {
     .section.cta {
     padding:700px 0 !important;
