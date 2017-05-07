@@ -160,7 +160,7 @@
 		width: 120px;
 	}
 
-	.step-data:focus{
+	.step-data:hover{
 		background-color:#ddd !important;
 	}
   
