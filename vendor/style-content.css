@@ -150,6 +150,22 @@
 		padding:20px
 	}
 
+	.step-data{
+		text-align: center;
+		padding: 20px;
+		margin: 30px;
+		padding-top: 30px;
+		border: 2px solid #ddd;
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+	}
+
+	.step-data:focus{
+		background-color:#ddd;
+	}
+  
+
 .content-fill>ul
 	{
 		 margin-left:15px;
@@ -172,29 +188,15 @@
 		text-align:justify;
 	}
   
-	.step-data{
-		text-align: center;
-		padding: 20px;
-		margin: 30px;
-		padding-top: 30px;
-		border: 2px solid #ddd;
-		border-radius: 50%;
-		height: 120px;
-		width: 120px;
+	
+	.data-content{
+		text-align:justify;
 	}
-
-	.step-data:focus{
-		background-color:#ddd;
-	}
-  
-			.data-content{
-			text-align:justify;
-			}
 	    		
-	    		.content-start > h2
-	    		{
-				text-align:center;
-	    		}
+	   .content-start > h2
+	    {
+		text-align:center;
+	    }
 	    
 	    .footer-homepage
 	    {
