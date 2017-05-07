@@ -96,8 +96,7 @@
   
 	.container-content-start{
 		background-color: #f7f8fa;
-		padding: 60px 0 60px 0;
-    border: 1px solid#ddd;
+    		border: 1px solid#ddd;
 	}
   
 	.content-start{
@@ -155,14 +154,14 @@
 		padding: 20px;
 		margin: 30px;
 		padding-top: 30px;
-		border: 2px solid #ddd;
+		border: 2px solid #ddd !important;
 		border-radius: 50%;
 		height: 120px;
 		width: 120px;
 	}
 
 	.step-data:focus{
-		background-color:#ddd;
+		background-color:#ddd !important;
 	}
   
 
