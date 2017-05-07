@@ -14,11 +14,10 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
 	<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-10 col-md-offset-1">
 					
 					
 					<div class="content-start">
-						<h1 class="text-center">Toolbox</h1>
 						<div class="row" style="text-align:center;">
 							<img class="img-logo-toolbox" src="http://i.imgur.com/TaiLEFi.png" style="width: 200px;height: 142px;margin: 10px;">
 							<img class="img-logo-toolbox" src="https://www.salestockindonesia.com/assets/images/logo-ss-34f2d4dd.png" style="width: 200px;height: 63px;margin: 10px;">
