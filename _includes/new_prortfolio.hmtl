@@ -12,224 +12,35 @@
 </section>
 
 <section class="no-padding" id="portfolio">
-    <center>
-        <div class="container-fluid  client-logo" style="padding-top:2%">
-		  <div class="row" style="text-align:center;">
-			<div class="col-md-2 col-md-offset-1 ">
-			  <div href="" class="portfolio-box" onclick="currentSlide()">
-					<img src="http://i.imgur.com/TaiLEFi.png"  class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-								</div>
-							<div class="project-name">
-										loreal
-							</div>
+    <div class="container-fluid">
+	<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					
+					
+					<div class="content-start">
+						<h1 class="text-center">Toolbox</h1>
+						<div class="row" style="text-align:center;">
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/TaiLEFi.png" style="width:160px; height:100px;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="https://www.salestockindonesia.com/assets/images/logo-ss-34f2d4dd.png" style="width:160px; height:121px;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/92NKvay.png" style="width:120px; height:120px;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://www.alfacart.com//media/wysiwyg/mobile-apps/logo-alfacart_2x.png" style="width:100px; height:103px;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://www.bhinneka.com/images/others/identity-guidelines-bhinneka-com.png?d=201701061515" style="width:100px; height:103px;"/></div>
 						</div>
-					</div>
-				 </div>
-			</div>
-			<div class="col-md-2" style="padding-top: 2%;">
-			  <a href="www.salestockindonesia.com" class="portfolio-box" style="">
-				<img src="https://www.salestockindonesia.com/assets/images/logo-ss-34f2d4dd.png" class="img-responsive" alt="">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-							</div>
-							<div class="project-name">
-								salestock
-							</div>
+						<div class="row" style="margin-top:30px;text-align:center;">
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/nXGrmbD.png" style="width:160px; height:84;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/eIC0GaU.jpg" style="width:160px; height:107;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="https://media.licdn.com/media/p/6/005/052/04c/0caa92c.png" style="width:160px; height:65;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/EWUbeLA.png" style="width:160px; height:100px;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/DiKbeKY.png" style="width:160px; height:100px;"/></div>
 						</div>
-					</div>
-			   </a>
-			</div>
-			<div class="col-md-2" style="padding-top: 3%;">
-			  <a href="http://maybelline.co.id/" class="portfolio-box" style="">
-				<img src="http://i.imgur.com/92NKvay.png" class="img-responsive" alt="">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-							</div>
-						<div class="project-name" >
-										maybelline
+						<div class="row" style="margin-top:30px;text-align:center;">
+							<div class="col-md-2"><img class="img-logo-toolbox" src="https://media.licdn.com/media/AAEAAQAAAAAAAAM4AAAAJDRhYTEwM2UwLThmZjQtNGEyZS05YjE1LTczY2EzNWQwMTI0Yg.png" style="width:160px; height:84;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://www.sukagolf.com/gambar/web/logo-sukagolf.png" style="width:160px; height:107;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/X3hpO3D.png" style="width:160px; height:65;"/></div>
+							<div class="col-md-2"><img class="img-logo-toolbox" src="http://i.imgur.com/EkbM8x6.png" style="width:160px; height:100px;"/></div>
 						</div>
 					</div>
 				</div>
-			  </a>
-			</div>
-			<div class="col-md-2">
-				<a href="http://www.alfacart.com/" class="portfolio-box">
-					<img src="http://www.alfacart.com//media/wysiwyg/mobile-apps/logo-alfacart_2x.png" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-								</div>
-								<div class="project-name">
-									Alfacart
-								</div>
-							</div>
-						</div>
-				</a>
-			</div>
-			<div class="col-md-2" style="padding-top: 3%;">
-				<a href="http://www.bhinneka.com/" class="portfolio-box">
-					<img src="http://www.bhinneka.com/images/others/identity-guidelines-bhinneka-com.png?d=201701061515" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-							</div>
-							<div class="project-name">
-								Bhinneka
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		  </div>
-		</div>
-		<div class="container-fluid " style="padding-top:2%; ">
-		  <div class="row" style="text-align:center;">
-			<div class="col-md-2 col-md-offset-1 " style="    padding-top: 4%;">
-			  <a href="https://www.misteraladin.com/" class="portfolio-box">
-							<img src="http://i.imgur.com/nXGrmbD.png" class="img-responsive" alt="">
-							<div class="portfolio-box-caption">
-								<div class="portfolio-box-caption-content">
-									<div class="project-category text-faded">
-										
-									</div>
-									<div class="project-name">
-									   mister aladin
-									</div>
-								</div>
-							</div>
-						</a>
-			</div>
-			<div class="col-md-2" style="padding-top: 1%;">
-			  <a href="http://www.bobobobo.com/id/" class="portfolio-box">
-							<img src="http://i.imgur.com/eIC0GaU.jpg" class="img-responsive" alt="">
-							<div class="portfolio-box-caption">
-								<div class="portfolio-box-caption-content">
-									<div class="project-category text-faded">
-										
-									</div>
-									<div class="project-name">
-										bobobobo
-									</div>
-								</div>
-							</div>
-						</a>
-			</div>
-			<div class="col-md-2" style="padding-top: 2%;">
-			   <a href="http://www.sucorinvest.com/id/" class="portfolio-box">
-							<img src="https://media.licdn.com/media/p/6/005/052/04c/0caa92c.png" class="img-responsive" alt="">
-							<div class="portfolio-box-caption">
-								<div class="portfolio-box-caption-content">
-									<div class="project-category text-faded">
-										
-									</div>
-									<div class="project-name">
-										sucorinvest
-									</div>
-								</div>
-							</div>
-						</a>
-			</div>
-			<div class="col-md-2">
-				<a href="https://www.tokopedia.com/" class="portfolio-box">
-							<img src="http://i.imgur.com/EWUbeLA.png" class="img-responsive" alt="">
-							<div class="portfolio-box-caption">
-								<div class="portfolio-box-caption-content">
-									<div class="project-category text-faded">
-										
-									</div>
-									<div class="project-name">
-										Tokopedia
-									</div>
-								</div>
-							</div>
-						</a>
-			</div>
-			<div class="col-md-2">
-				<a href="https://sg.epicurio.co/" class="portfolio-box">
-							<img src="http://i.imgur.com/DiKbeKY.png"  class="img-responsive" alt="">
-							<div class="portfolio-box-caption">
-								<div class="portfolio-box-caption-content">
-									<div class="project-category text-faded">
-										
-									</div>
-									<div class="project-name">
-										epicurio
-									</div>
-								</div>
-							</div>
-						</a>
 			</div>
 		</div>
-  </div>
-  <div class="container-fluid " style=" padding-top:2%; padding-bottom:2%;">
-  <div class="row">
-    <div class="col-md-2 col-md-offset-1 " style="padding-top: 2%">
-      <a href="http://www.eyeindonesia.com/id/" class="portfolio-box">
-                    <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAM4AAAAJDRhYTEwM2UwLThmZjQtNGEyZS05YjE1LTczY2EzNWQwMTI0Yg.png"  class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                
-                            </div>
-                            <div class="project-name">
-                                eye
-                            </div>
-                        </div>
-                    </div>
-                </a>
-    </div>
-    <div class="col-md-2" style="padding-top: 1%;">
-     <a href="http://www.sukagolf.com" class="portfolio-box">
-                    <img src="http://www.sukagolf.com/gambar/web/logo-sukagolf.png" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                
-                            </div>
-                            <div class="project-name">
-                                sukagolf
-                            </div>
-                        </div>
-                    </div>
-                </a>
-    </div>
-    <div class="col-md-2" style="padding-top: 2%;">
-       <a href="https://naiise.com/" class="portfolio-box">
-                    <img src="http://i.imgur.com/X3hpO3D.png"  class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                
-                            </div>
-                            <div class="project-name">
-                                naiise
-                            </div>
-                        </div>
-                    </div>
-                </a>
-    </div>
-    <div class="col-md-2" style="padding-top: 1%;">
-		<a href="http://ruma.co.id/" class="portfolio-box">
-                    <img src="http://i.imgur.com/EkbM8x6.png"  class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                
-                            </div>
-                            <div class="project-name">
-                               ruma
-                            </div>
-                        </div>
-                    </div>
-                </a>
-    </div>
-	</div>
-</div>
-
-    </center>
 </section>
