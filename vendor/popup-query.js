@@ -1,5 +1,6 @@
 <script>
 function myMap() {
+    console.log("ahahha");
 var mapProp= {
     center:new google.maps.LatLng(51.508742,-0.120850),
     zoom:5,
