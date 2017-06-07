@@ -9,7 +9,7 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgWggS-wQkqrkzS2AZY60PhgTn1qxeli8 &callback=myMap"></script>
 
 
 
