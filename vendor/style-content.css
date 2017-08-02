@@ -312,7 +312,6 @@
 
    .adv-right
 	{
-	    margin-right: 10px;
-	    margin-left: -15px;
+	  padding-right:4px;
 	}
 }
