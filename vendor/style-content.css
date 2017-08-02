@@ -303,4 +303,16 @@
     {
       left: 8%;
     }
+
+   .adv-left
+    {
+	        margin-right: 20px;
+    margin-left: 15px;
+    }
+
+   .adv-right
+	{
+	    margin-right: 10px;
+	    margin-left: -15px;
+	}
 }
