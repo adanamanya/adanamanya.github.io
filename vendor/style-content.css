@@ -289,6 +289,9 @@
     left: 40%;
 }
 
+.img-data{
+	width: 430px;height: 320px; margin-top:30px;
+}
 
 
  section.cta {
@@ -315,8 +318,8 @@
 	  padding-right:4px;
 	}
 	
-	.img-step{
-				width:100%;
+	.img-data{
+				width:100% !important;
 			}
 			
 			.step-data{
