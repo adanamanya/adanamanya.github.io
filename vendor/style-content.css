@@ -296,6 +296,16 @@
 	width: 430px;height: 320px; margin-top:30px;
 }
 
+ .adv-left
+    {
+	        margin-right: 20px;
+    }
+
+   .adv-right
+	{
+	  margin-left:20px;
+	}
+
 
  section.cta {
     padding: 400px 0 !important;
@@ -312,13 +322,12 @@
 
    .adv-left
     {
-	        margin-right: 20px;
-    margin-left: 15px;
+	 margin:20px;
     }
 
    .adv-right
 	{
-	  padding-right:4px;
+	  margin:20px;
 	}
 	
 	.img-data{
