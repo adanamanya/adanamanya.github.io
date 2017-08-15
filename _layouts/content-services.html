@@ -131,6 +131,11 @@ $(document).ready(function(){
 		#offlinetoonline:hover{background-color:#fdcc52;}
 		#ecommercetracking:hover{background-color:#fdcc52;}
 		
+		.small-device{display:hidden;}
+		@media screen and (max-width: 1150px) {
+			.small-device{display:block;}
+			.desktop-device{display:block;}
+		}
 		@media screen and (max-width: 1000px) {
 		    .enterprise-section {
 			display: block;
@@ -182,8 +187,8 @@ $(document).ready(function(){
 <div class="container-fluid container-content-start" style="padding-top:40px;padding-right:0px;padding-left:0px;">
     <div style="position: relative;">
 	<img src="https://www.sinorbis.com/sites/default/files/2017-04/digital-marketing-bg.jpg" style="width:100%;">
-        <div class="col-md-4 " style="position: absolute;top: 130px;color: white;left: 30px;">
- 					<div class="content-start" style="text-align:center;top: 0;top: 63px;color: white;color: white !important;font-weight: bold;">
+        <div class="col-md-4 desktop-device" style="position: absolute;top: 130px;color: white;left: 30px;">
+ 					<div class="content-start" style="text-align:justify;top: 0;top: 63px;color: white;color: white !important;font-weight: bold;">
  						<p style="color: white !important;">Whether you’re a small eCommerce startup or a digital marketplace giant, a niche fashion portal or a global cosmetic brand, a forward-thinking fintech or a traditional bank, the ability to turn data into actionable insights is a key factor in achieving your digital goals.  
  IlmuOne Data provides digital marketing, business intelligence, and analytics solutions for decision makers, senior marketers, and startup founders. </p>
  					</div>
@@ -193,6 +198,15 @@ $(document).ready(function(){
  			</div>
 
 		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="content-start small-device">
+ 						<p >Whether you’re a small eCommerce startup or a digital marketplace giant, a niche fashion portal or a global cosmetic brand, a forward-thinking fintech or a traditional bank, the ability to turn data into actionable insights is a key factor in achieving your digital goals.  
+ IlmuOne Data provides digital marketing, business intelligence, and analytics solutions for decision makers, senior marketers, and startup founders. </p>
+ 					</div>
+				</div>
+				
+			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="content-start">
@@ -206,7 +220,8 @@ $(document).ready(function(){
 		<div class="container-fluid container-content-start">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<div class="content-start partner-solution">
+				    <div class="content-start">
+					<div class=" partner-solution">
 						<h1>Your Partner for Enterprise-Level Solutions</h1>
 					</div>
 					<div class="row enterprise-section">
@@ -252,7 +267,8 @@ $(document).ready(function(){
 									<p>Advanced analytics and cross domain configuration to link multiple websites and properties, combining them under one easy-to-use dashboard</p>
 							    </div>
 						</div>
-					</div>					
+					</div>
+				    </div>
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
