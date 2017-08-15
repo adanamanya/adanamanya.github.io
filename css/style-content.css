@@ -239,8 +239,7 @@
 }
 
 .img-logo-toolbox:hover{
--webkit-transform: scale3d(1.2, 1.2, 1);
-          transform: scale3d(1.2, 1.2, 1);}
+transform: scale(1.2);}
 
 		@media screen and (max-width: 1000px) {
 
