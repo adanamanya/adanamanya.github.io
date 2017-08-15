@@ -240,6 +240,8 @@
 
 .img-logo-toolbox:hover{
 transform: scale(1.2);}
+.testimoni-client:hover{
+transform: scale(1.2);}
 
 		@media screen and (max-width: 1000px) {
 
